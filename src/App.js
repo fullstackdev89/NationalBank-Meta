@@ -3,10 +3,10 @@ import "./App.css";
 function App() {
   return (
     <div className="">
-      <div className="bg-white w-full h-screen">
+      <div className="bg-white w-full">
         <div className="max-w-[1280px] w-11/12 m-auto">
           {/* Navbar */}
-          <div className="sm:flex justify-between py-5 px-4 mt-10 gap-10 rounded-lg items-center bg-black">
+          <div className="sm:flex justify-between py-5 px-4 mt-10 sm:mt-20 gap-10 rounded-lg items-center bg-black">
             <div className="flex justify-start items-center gap-4">
               <img src="/img/Group2.png" alt="" />
               <p className="text-white text-lg font-medium hidden sm:block">
@@ -39,7 +39,7 @@ function App() {
                   placeholder="Enter your email."
                   className="outline-0 text-black px-3 py-2 w-full"
                 />
-                <button className="bg-black text-white px-2 py-2 font-bold w-64 text-lg rounded-md">
+                <button className="bg-black text-white px-2 py-2 font-bold sm:w-64 text-lg rounded-md w-[400px]">
                   Join the waitlist
                 </button>
               </div>
@@ -76,7 +76,7 @@ function App() {
                 alt=""
                 className="w-full max-w-[400px] m-auto mt-10 sm:mt-0"
               />
-              <div className="w-full bg-black rounded p-4 sm:flex justify-between mt-10">
+              <div className="w-full bg-black rounded p-4 sm:flex justify-between mt-10 mb-6 sm:mb-0">
                 <div className="flex justify-center sm:justify-start gap-4 items-center">
                   <img src="/img/Vector.png" alt="" className="w-10 h-10" />
                   <div>
