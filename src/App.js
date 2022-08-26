@@ -5,8 +5,9 @@ function App() {
     <div className="">
       <div className="bg-white w-full">
         <div className="max-w-[1280px] w-11/12 m-auto">
+          <img src="/img/logo.png" alt="" className="h-20 mt-20" />
           {/* Navbar */}
-          <div className="sm:flex justify-between py-5 px-4 mt-10 sm:mt-20 gap-10 rounded-lg items-center bg-black">
+          {/* <div className="sm:flex justify-between py-5 px-4 mt-10 sm:mt-20 gap-10 rounded-lg items-center bg-black">
             <div className="flex justify-start items-center gap-4">
               <img src="/img/Group2.png" alt="" />
               <p className="text-white text-lg font-medium hidden sm:block">
@@ -22,7 +23,7 @@ function App() {
               <p>Login</p>
               <p>Register</p>
             </div>
-          </div>
+          </div> */}
 
           {/* Content */}
           <div className="sm:flex justify-between gap-10 mt-10 sm:mt-20">
@@ -89,11 +90,11 @@ function App() {
                   </div>
                 </div>
                 <div className="flex justify-center items-center gap-10 mt-4 sm:mt-0">
-                  <button className="text-white bg-yellow-400 font-bold px-6 py-2 rounded ">
+                  {/* <button className="text-white bg-yellow-400 font-bold px-6 py-2 rounded ">
                     Okay
-                  </button>
+                  </button> */}
                   <button className="text-white borderw-white border-2 font-bold px-6 py-2 rounded ">
-                    Nope
+                    Accept
                   </button>
                 </div>
               </div>
