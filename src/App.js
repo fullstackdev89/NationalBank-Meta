@@ -5,7 +5,25 @@ function App() {
     <div className="">
       <div className="bg-white w-full">
         <div className="max-w-[1280px] w-11/12 m-auto">
-          <img src="/img/logo.png" alt="" className="h-20 mt-20" />
+          <div className="sm:flex justify-between pt-20">
+            <a
+              href="https://www.Block2AI.com"
+              target="_blank"
+              without
+              rel="noreferrer"
+            >
+              <img
+                src="/img/logo.png"
+                alt=""
+                className="h-20 mt-20 m-auto sm:m-0"
+              />
+            </a>
+            <img
+              src="/img/coming.png"
+              alt=""
+              className="w-64 m-auto mt-10 sm:m-0"
+            />
+          </div>
           {/* Navbar */}
           {/* <div className="sm:flex justify-between py-5 px-4 mt-10 sm:mt-20 gap-10 rounded-lg items-center bg-black">
             <div className="flex justify-start items-center gap-4">
@@ -26,15 +44,15 @@ function App() {
           </div> */}
 
           {/* Content */}
-          <div className="sm:flex justify-between gap-10 mt-10 sm:mt-20">
+          <div className="sm:flex justify-between items-center gap-10 mt-10 sm:mt-20">
             <div className="sm:w-1/2">
               <p className="text-black text-center sm:text-start text-3xl sm:text-5xl font-bold leading-[40px] sm:leading-[60px]">
-                Custom Credit / Debit Cards for you
+                A secure storage location for valuable data
               </p>
               <p className="text-black/75 text-xl sm:text-3xl text-center sm:text-start mt-4">
                 Issue fully customizable cards fast and easy.
               </p>
-              <div className="flex justify-between gap-10 shadow-2xl bg-white p-2 mt-10 rounded-md">
+              {/* <div className="flex justify-between gap-10 shadow-2xl bg-white p-2 mt-10 rounded-md">
                 <input
                   type={"text"}
                   placeholder="Enter your email."
@@ -43,7 +61,7 @@ function App() {
                 <button className="bg-black text-white px-2 py-2 font-bold sm:w-64 text-lg rounded-md w-[400px]">
                   Join the waitlist
                 </button>
-              </div>
+              </div> */}
               <div className="mt-20">
                 <div className="flex justify-start gap-3 items-center mt-5 px-2">
                   <img src="/img/check.png" alt="" className="h-7" />
